@@ -16,3 +16,5 @@
 *.pro
 
 gradle/wrapper/
+
+\.idea/

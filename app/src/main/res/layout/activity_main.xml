@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark"
+    android:background="@drawable/bg_gradient"
     tools:context=".view.MainActivity">
 
     <LinearLayout
@@ -11,14 +11,23 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:orientation="vertical"
-        android:padding="30dp">
+        android:layout_margin="25dp"
+        android:padding="25dp">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:gravity="center"
-            android:text="MVP Login"
+            android:text="MVP"
+            android:textSize="70dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Login"
             android:textSize="30dp"
             android:layout_marginBottom="30dp"/>
 
@@ -44,7 +53,8 @@
             style="@style/buttonStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="2dp"
+            android:textStyle="bold"
             android:text="Login" />
     </LinearLayout>
 
